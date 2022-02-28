@@ -1,4 +1,4 @@
-# MukemmelSayi
+# Mukemmel Sayi
 
 Kendisi hariç bütün pozitif çarpanları (tam bölenleri) toplamı,  yine kendisine eşit olan sayılara ”mükemmel sayı” denir.  
 Buna göre klavyeden girilen bir tam sayının “mükemmel sayı” olup olmadığını kontrol eden C# programını kodlarını yazınız?
