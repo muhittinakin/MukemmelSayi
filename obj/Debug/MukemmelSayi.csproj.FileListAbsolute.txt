@@ -1,0 +1,8 @@
+D:\PROJELER\MukemmelSayi\MukemmelSayi\bin\Debug\MukemmelSayi.exe.config
+D:\PROJELER\MukemmelSayi\MukemmelSayi\bin\Debug\MukemmelSayi.exe
+D:\PROJELER\MukemmelSayi\MukemmelSayi\bin\Debug\MukemmelSayi.pdb
+D:\PROJELER\MukemmelSayi\MukemmelSayi\obj\Debug\MukemmelSayi.csproj.AssemblyReference.cache
+D:\PROJELER\MukemmelSayi\MukemmelSayi\obj\Debug\MukemmelSayi.csproj.SuggestedBindingRedirects.cache
+D:\PROJELER\MukemmelSayi\MukemmelSayi\obj\Debug\MukemmelSayi.csproj.CoreCompileInputs.cache
+D:\PROJELER\MukemmelSayi\MukemmelSayi\obj\Debug\MukemmelSayi.exe
+D:\PROJELER\MukemmelSayi\MukemmelSayi\obj\Debug\MukemmelSayi.pdb
