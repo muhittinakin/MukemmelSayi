@@ -15,19 +15,18 @@ namespace MukemmelSayi
              * Örneğin 28=1+2+4+7+14 ve 6=1+2+3   gibi. 
              * Buna göre klavyeden girilen bir tam sayının “mükemmel sayı” olup olmadığını kontrol eden
              * C# programını kodlarını yazınız */
-            int sayi, toplam = 0;
+            Console.WriteLine("Lütfen kontrol edilecek sayıyı giriniz:");
+            int sayi;
 
-         sayiGirisi:
-            Console.WriteLine("Lütfen Kontrol  Edilecek Sayıyı Giriniz:");
-            string okunan = Console.ReadLine();
-
-            // string sayi dönüşüm işlemleri için
-            if (!Int32.TryParse(okunan, out sayi) || sayi < 0)
+            // Kullanıcıdan sayıyı al ve doğru formatta girilene kadar tekrar iste
+            while (!int.TryParse(Console.ReadLine(), out sayi) || sayi < 1)
             {
-                Console.WriteLine("Girilen değer doğru formatta değil.Lütfen sayi giriniz...");
-                goto sayiGirisi;
+                Console.WriteLine("Geçerli bir pozitif tam sayı giriniz:");
             }
 
+            int toplam = 0;
+
+            // Sayının pozitif bölenlerini topla
             for (int i = 1; i < sayi; i++)
             {
                 if (sayi % i == 0)
@@ -36,14 +35,14 @@ namespace MukemmelSayi
                 }
             }
 
+            // Toplam sayıya eşitse mükemmel sayıdır
             if (sayi == toplam)
             {
-                Console.WriteLine("{0} Sayısı Mükemmel Sayıdır",sayi);
-                
+                Console.WriteLine("{0} sayısı mükemmel bir sayıdır.", sayi);
             }
             else
             {
-                Console.WriteLine("{0} Sayısı Mükemmel Sayı Değildir", sayi);
+                Console.WriteLine("{0} sayısı mükemmel bir sayı değildir.", sayi);
             }
 
             Console.ReadLine();
